@@ -95,6 +95,11 @@
                                 workingState = false;
                             }
                         }
+                        if(currentState.breadcrumb === false)
+                        {
+                            workingState = false;
+                        }
+                        
                         return workingState;
                     }
 
